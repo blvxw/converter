@@ -1,6 +1,6 @@
 from aiogram import Bot, Dispatcher, types
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
-from packages.utils.env import get_env_variable
+from res.utils.env import get_env_variable
 
 # Задайте дані проксі
 proxy_host = "45.142.252.131"

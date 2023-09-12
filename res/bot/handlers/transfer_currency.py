@@ -1,4 +1,4 @@
-from packages.bot.loader import dp,bot
+from res.bot.loader import dp,bot
 from aiogram.types import Message
 import re
 

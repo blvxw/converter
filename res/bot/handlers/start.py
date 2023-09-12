@@ -1,4 +1,4 @@
-from packages.bot.loader import dp,bot
+from res.bot.loader import dp,bot
 import aiogram.types as types
 
 @dp.message_handler(commands=['start'])
