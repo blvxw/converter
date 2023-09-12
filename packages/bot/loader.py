@@ -9,7 +9,7 @@ proxy_username = "QKP1qI"
 proxy_password = "aRCB7dfexC"
 
 # Створіть об'єкт проксі
-proxy = f"http://{proxy_username}:{proxy_password}@{proxy_host}:{proxy_port}/"
+proxy = f"https://{proxy_host}:{proxy_port}/"
 
 # Створіть об'єкт бота з проксі
 bot = Bot(token=get_env_variable("TOKEN"), parse_mode=types.ParseMode.HTML, proxy=proxy)
